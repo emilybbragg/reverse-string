@@ -1,6 +1,17 @@
 function reverseString(str) {
-  // type your code here
+  let reverse = "";
+    for (let i = str.length -1; i> -1; --i) {
+      reverse = reverse + stri[i];
+    };
+    return reverse;
 }
+
+
+
+//function receives argument of a string
+//split each string into individual letters = empty array
+//loop through each letter to reverse order
+//display each reversed string
 
 if (require.main === module) {
   // add your own tests in here

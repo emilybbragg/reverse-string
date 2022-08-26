@@ -1,6 +1,14 @@
 def reverse_string(str)
-  # type your code in here
+  reverse = ""
+
+  str.chars.each do |char|
+    reverse = char + reverse
+  end
+
+  reverse
 end
+
+
 
 if __FILE__ == $PROGRAM_NAME
   puts "Expecting: 'ih'"
